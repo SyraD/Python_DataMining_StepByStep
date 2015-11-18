@@ -22,7 +22,7 @@ You will need the:
 * access token 
 * access token secret
 
-<img src="files/Images_storage/API.jpg" width="600px">
+![alt text](https://github.com/SyraD/Python_DataMining_StepByStep/blob/master/Images_storage/API.jpg "Photo")
 
 ## 2. Create a new folder called PyCodes in your KodingVM at /home/yourUserName/
 ## 3. Then, create a subfolder called Imports at /home/yourUserName/Imports
