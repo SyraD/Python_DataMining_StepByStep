@@ -1,14 +1,21 @@
 # Guide to Gaining Access to Twitter APIs from Python
 By sarahd @behaviordots
+
 Part of the @curiositybits collective http://www.curiositybits.org/
 
-Video Tutorial for this Guide: XX
+Video Tutorial for this Guide: COMING SOON
 
-Koding VM at: https://koding.com/
-Previous Python_DataMining_StepByStep:
-*   https://github.com/SyraD/Python_DataMining_StepByStep/blob/master/1.KodingVM_setup.md
+This tutorial will: 
+*    create a Twitter application, 
+*    collect access tokens, 
+*    use the tokens to mine Twitter in Python.
 
-Copy and paste the following lines of code after user: into the terminal of the Koding VM.
+Twitter data is accessed through requests to the Twitter application programming interface referred to as an API. To receive data from calls to the API, the requester must provide valid OAuth acccess tokens from a Twitter application. 
+As Twitter writes on https://dev.twitter.com/oauth/overview:
+
+````
+"Once you have an access token and token secret, the Twitter API is your oyster! By following the steps described in Authorizing a request, you can issue authorized requests to the REST API and the The Streaming APIs."
+````
 
 ## 1. Application authentication is the first prerequisite to access Twitter data. 
 
@@ -24,9 +31,17 @@ You will need the:
 
 ![alt text](https://github.com/SyraD/Python_DataMining_StepByStep/blob/master/Images_storage/API.jpg "Photo")
 
+# Python for Datamining Twitter
+The second half of this guide will utilize a Koding VM from https://koding.com/. If you have not already have a preferred python development environment or Koding VM setup for python you can follow the Previous Python_DataMining_StepByStep:
+
+*   https://github.com/SyraD/Python_DataMining_StepByStep/blob/master/1.KodingVM_setup.md
+
+Copy and paste the following lines of code after user: into the terminal of the Koding VM.
+
 ## 2. Create a new folder called PyCodes in your KodingVM at /home/yourUserName/
+
 ## 3. Then, create a subfolder called Imports at /home/yourUserName/Imports
-## Create a new document 
+## Create a new document. 
 
 Paste the text below into the document and customize with your keys and secrets.
 ````
@@ -39,18 +54,17 @@ oauth_token_secret='XX'
 ````
 Save the file as Keys.py in the /home/yourUserName/Imports folder.
 
-
 ## 4. Import twitter module for python
 
 ```
 user: ~ $ sudo pip install twitter
-
 ```
 
 ## 5. Testing path setup
 Create a new file in the PyCodes folder: /home/yourUserName/PyCodes/.
 
 Paste the below code and save it as testPath.py
+
  ```
 import sys
 
@@ -63,14 +77,12 @@ print sys.path
 from Keys import * 
 
 print app_key, app_secret, oauth_token, oauth_token_secret #variables from Imports/Keys.py 
-
 ```
 
 In the terminal, navigate to the PyCodes folder:
 ````
 user: ~ $ cd PyCodes
 user: ~/PyCodes $  
-
 ````
 Run the testPath.py python code.
 ````
@@ -100,7 +112,6 @@ auth = twitter.oauth.OAuth(oauth_token, oauth_token_secret,
                              app_key, app_secret)
 twitter_api = twitter.Twitter(auth=auth)
 print twitter_api, 'you have authentication!'
-
 ````
 Run the basicAuth.py python code using terminal.
 ````
