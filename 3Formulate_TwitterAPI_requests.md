@@ -2,12 +2,14 @@
 By sarahd @behaviordots
 Part of the @curiositybits collective http://www.curiositybits.org/
 
-Video Tutorial for this Guide: XX
+Video Tutorial for this Guide: COMING SOON
 
-Koding VM at: https://koding.com/
-Previous Python_DataMining_StepByStep:
+Learn how to use the Twitter python module to make GET requests to the Twitter API. 
+
+This tutorial will build on the Previous Python_DataMining_StepByStep:
 *   https://github.com/SyraD/Python_DataMining_StepByStep/blob/master/1KodingVM_setup.md
 *   https://github.com/SyraD/Python_DataMining_StepByStep/blob/master/2Passwords_toTwitter_Data
+
 
 Copy and paste the following lines of code after user: into the terminal of the Koding VM.
 
