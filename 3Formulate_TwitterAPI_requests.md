@@ -64,8 +64,7 @@ https://dev.twitter.com/rest/public
 Formulating requests in the twitter module is aligned with the twitter.com documentation format. However, the "/" changes to a ".". Then, the necessary parameters can be specified in parentheses.
 
 Some examples:
-<img src="files/Images_storage/API_Examples.jpg" width="600px">
-
+![alt text](https://github.com/SyraD/Python_DataMining_StepByStep/blob/master/Images_storage/API_Examples.jpg "Photo")
 
 ## Testing the Examples
 Open APItests.py and add these lines at the end:
