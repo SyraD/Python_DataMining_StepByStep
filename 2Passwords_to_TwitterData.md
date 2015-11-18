@@ -35,7 +35,7 @@ You will need the:
 ![alt text](https://github.com/SyraD/Python_DataMining_StepByStep/blob/master/Images_storage/API.jpg "Photo")
 
 # Python for Datamining Twitter
-The second half of this guide will utilize a Koding VM from https://koding.com/. If you have not already have a preferred python development environment or Koding VM setup for python you can follow the Previous Python_DataMining_StepByStep:
+The second half of this guide will utilize a Koding VM from https://koding.com/. If you do not already have a preferred python development environment or a Koding VM setup for python you can follow the Previous Python_DataMining_StepByStep:
 
 *   https://github.com/SyraD/Python_DataMining_StepByStep/blob/master/1.KodingVM_setup.md
 
