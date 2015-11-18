@@ -80,6 +80,7 @@ user: ~/ Pycodes $ unzip master.zip -d DownloadedCode
 Use the folder view or terminal commands (cd ..) to navigate to the BasicMiningScripts and move out to PyCodes. Delete DownloadedCode folder and masterscript if you like.
 
 #7. Modify the Keys.py file with your keys.
+Be sure to save the updated file. 
 
 #8. Naviate to the folder with the code
 ```
@@ -115,7 +116,7 @@ Tweets in your sqlite database
 ````
 user: ~/ sudo apt-get install sqlite3 libsqlite3-dev
 ````
-#11. View data
+#11. View your data
 
 In the folder view you will see a file called BasicTweet1.db.
 This is our output data. To view we will open SQLite.
