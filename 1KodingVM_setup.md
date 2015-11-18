@@ -3,7 +3,7 @@ By sarahd@behaviordots
 
 Part of the @curiositybits collective http://www.curiositybits.org/
 
-##Video Tutorial for this Guide: https://youtu.be/_PqqIY_ZhkE
+##Video Tutorial for this Guide: COMING SOON
 ##Koding VM at: https://koding.com/
 
 ### Why Use A Koding VM?
@@ -14,7 +14,7 @@ A few other reasons for using Koding:
 *     Real-time collaboration capabilities (http://learn.koding.com/guides/collaboration/)
 
 ## Get Started:
-These steps are self-contained. Just copy and paste the following lines of code after ‘user:’ into the terminal of the Koding VM. Some of the steps will have (optional) noting additional resources. 
+These steps are self-contained. Just copy and paste the following lines of code after ‘user: ~ $’ into the terminal of the Koding VM. Some of the steps will have (optional) noting additional resources. 
 
 ## 1. Install pip package manager for python
 (Optional) more info available from: http://learn.koding.com/guides/getting-started-python/
