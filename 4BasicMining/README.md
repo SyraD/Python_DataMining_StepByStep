@@ -1,17 +1,21 @@
 # Basic Mining Scripts Tutorial
 By sarahd@behaviordots
+
 Part of the @curiositybits collective http://www.curiositybits.org/
 
-These 'Basic Scripts' are designed to create a fundamental outline for datamining twitter in python that can be built on to customize or add complexity.
+These 'Basic Scripts' are designed to create a fundamental outline for datamining Twitter in Python that can be built on to customize or add complexity.
 
-Video Tutorial for this Guide: coming soon
+Video Tutorial for this Guide: COMING SOON
 
 ## Koding VM set-up
-The first four steps will go through setting up a Koding VM. If you have already completed the previous tutorials:
-*     
-*    
-you can skip these four steps. 
-These steps are intended to be followed in the Koding VM environment. If you have a preferred python coding environment you can follow the general outline but will need to take additional steps to setup a SQLite database. The following slides will be helpful: http://www.slideshare.net/cosmopolitanvan/curiosity-bits-tutorial-mining-twitter-user-profile-v2
+The first four steps will go through setting up a Koding VM. SKIP 1-4 if you have already completed the previous three tutorials:
+*    https://github.com/SyraD/Python_DataMining_StepByStep/blob/master/1KodingVM_setup.md 
+*    https://github.com/SyraD/Python_DataMining_StepByStep/blob/master/2Passwords_to_TwitterData.md
+*    https://github.com/SyraD/Python_DataMining_StepByStep/blob/master/3Formulate_TwitterAPI_requests.md
+
+The Basic Mining Script Tutorial is intended to be followed in the Koding VM environment. If you have a preferred python coding environment, you can follow the general outline but will need to take additional steps to setup a SQLite database. 
+The following slides will be helpful: http://www.slideshare.net/cosmopolitanvan/curiosity-bits-tutorial-mining-twitter-user-profile-v2
+
 ## Getting Started:
 Start-up the Koding VM. 
 Copy and paste the following lines of code after ‘user: ~ $ ‘ into the terminal of the Koding VM.
