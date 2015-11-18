@@ -1,16 +1,20 @@
-# Basic Mining Script Tutorial
+# Basic Mining Scripts Tutorial
 By sarahd@behaviordots
 Part of the @curiositybits collective http://www.curiositybits.org/
 
-The Basic Scripts are designed to create the fundamental a outline for datamining twitter in python that can be modified to customize or add complexity.
+These 'Basic Scripts' are designed to create a fundamental outline for datamining twitter in python that can be built on to customize or add complexity.
 
 Video Tutorial for this Guide: coming soon
 
-Koding VM at: https://koding.com/
-
+## Koding VM set-up
+The first four steps will go through setting up a Koding VM. If you have already completed the previous tutorials:
+*     
+*    
+you can skip these four steps. 
+These steps are intended to be followed in the Koding VM environment. If you have a preferred python coding environment you can follow the general outline but will need to take additional steps to setup a SQLite database. The following slides will be helpful: http://www.slideshare.net/cosmopolitanvan/curiosity-bits-tutorial-mining-twitter-user-profile-v2
+## Getting Started:
 Start-up the Koding VM. 
-Copy and paste the following lines of code after user: into the terminal of the Koding VM.
-
+Copy and paste the following lines of code after ‘user: ~ $ ‘ into the terminal of the Koding VM.
 ## 1. Install pip package manager for python
 http://learn.koding.com/guides/getting-started-python/
 
@@ -49,7 +53,7 @@ root: apt-get install libmysqlclient-dev
 ```
 Control + D to exit root.
 
-## 8. Install dataset: databases for lazy people and Twython for accessing Twitter APIs in Python.
+## 5. Install dataset: databases for lazy people and Twython for accessing Twitter APIs in Python.
 http://dataset.readthedocs.org/en/latest/quickstart.html
 
 
@@ -57,7 +61,7 @@ http://dataset.readthedocs.org/en/latest/quickstart.html
 user: ~ $ sudo pip install dataset twython
 ```
 
-#9. Fetch Code
+#6. Fetch Code
 Create a new folder called PyCodes 
 ````
 user: ~/ mkdir PyCodes
@@ -72,16 +76,16 @@ user: ~/ Pycodes $ unzip master.zip -d DownloadedCode
 Use the folder view to navigate to the BasicMiningScripts and move out to PyCodes. 
 Delete DownloadedCode folder and masterscript if you like.
 
-#10.
+#7.
 Modify the Keys.py file with your keys.
 
-#10 naviate to the folder with the code
+#8. naviate to the folder with the code
 ```
 user: ~/ Pycodes $ cd BasicMiningScripts
 
 ```
 
-#11 run the 'Run This' code
+#9.  run the 'Run This' code
 
 ```
 user: ~/ Pycodes/BasicMiningScripts $ python RunThis.py
@@ -105,12 +109,12 @@ Tweets in your sqlite database
 
 ````
 
-#12 
+#10. 
 Install SQLite3 and developers dependencies.
 ````
 user: ~/ sudo apt-get install sqlite3 libsqlite3-dev
 ````
-#13 View data
+#11. View data
 
 In the folder view you will see a file called BasicTweet1.db.
 This is our output data. To view we will open SQLite.
