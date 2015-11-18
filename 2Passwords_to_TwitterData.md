@@ -14,7 +14,10 @@ Twitter data is accessed through requests to the Twitter application programming
 As Twitter writes on https://dev.twitter.com/oauth/overview:
 
 ````
-"Once you have an access token and token secret, the Twitter API is your oyster! By following the steps described in Authorizing a request, you can issue authorized requests to the REST API and the The Streaming APIs."
+"Once you have an access token and token secret, 
+the Twitter API is your oyster! By following 
+the steps described in Authorizing a request, you can issue 
+authorized requests to the REST API and the the Streaming APIs."
 ````
 
 ## 1. Application authentication is the first prerequisite to access Twitter data. 
@@ -38,10 +41,13 @@ The second half of this guide will utilize a Koding VM from https://koding.com/.
 
 Copy and paste the following lines of code after user: into the terminal of the Koding VM.
 
-## 2. Create a new folder called PyCodes in your KodingVM at /home/yourUserName/
+## 2. Create a new folder for codes.
+Create a folder called PyCodes in your KodingVM at /home/yourUserName/PyCodes
 
-## 3. Then, create a subfolder called Imports at /home/yourUserName/Imports
-## Create a new document. 
+## 3. Then, create a subfolder for imports.
+Create a subfolder called Imports at /home/yourUserName/PyCodes/Imports
+
+## Create a new document in the Imports folder.
 
 Paste the text below into the document and customize with your keys and secrets.
 ````
@@ -52,7 +58,7 @@ oauth_token=XX''
 oauth_token_secret='XX'
 
 ````
-Save the file as Keys.py in the /home/yourUserName/Imports folder.
+Save the file as Keys.py in the /home/yourUserName/PyCodes/Imports folder.
 
 ## 4. Import twitter module for python
 
