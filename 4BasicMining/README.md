@@ -1,11 +1,11 @@
 # Basic Mining Scripts Tutorial
-By sarahd@behaviordots
+By sarahd @behaviordots
 
 Part of the @curiositybits collective http://www.curiositybits.org/
 
 These 'Basic Scripts' are designed to create a fundamental outline for datamining Twitter in Python that can be built on to customize or add complexity.
 
-Video Tutorial for this Guide: COMING SOON
+Video Tutorial for this Guide: COMING SOON - follow @behaviordots and @curiositybits for updates
 
 ## Koding VM set-up
 The first four steps will go through setting up a Koding VM. SKIP 1-4 if you have already completed the previous three tutorials:
@@ -171,3 +171,6 @@ retweet_count = 2
     fav_count = 0
       tweetID = 666663394938904576
 ````
+
+You did it! To understand the code better view the https://github.com/SyraD/Python_DataMining_StepByStep/blob/master/4BasicMining/BasicMiningNotebook.ipynb
+and come back for the video tutorial. 
